@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+
+  --color-night: #142b46;
+  --color-teal: #167d78;
+  --color-canvas: #f5f7fa;
+  --color-ink: #172b4d;
+  --color-muted: #556274;
+  --color-line: #dde3ea;
+
+  /* Texte sur fond clair : variantes foncées (contraste AA) */
+  --color-danger: #b83a3a;
+  --color-warn: #8a4b00;
+  --color-success: #1b7a57;
+
+  /* Fonds et pastilles : les couleurs claires du brief */
+  --color-danger-soft: #fbeaea;
+  --color-warn-soft: #fdf2df;
+  --color-success-soft: #e3f4ec;
+
+  --radius-card: 1rem;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-variant-numeric: tabular-nums;
+}
